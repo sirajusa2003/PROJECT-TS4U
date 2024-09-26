@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #062539;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1350px;
+  margin: auto;
+}
+
+.ts4u_logo img {
+  height: 50px;
+  width: 125px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  color: white;
+  padding: 12px 0px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-button button {
+  background: none;
+}
+
+.banner_div_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_btn {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: auto;
+}
+.development_heading{
+    text-align: center;
+}
+.dev_card{
+    padding: 30px 20px;
+    border-radius: 6px;
+    border: 1px solid #c6d7d7;
+}
+.development_applications{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
